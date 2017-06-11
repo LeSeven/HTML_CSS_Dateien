@@ -1,7 +1,7 @@
 <?php
 
 function setval($key, $value) {
-  setcookie($key, $value, time()+(365*24*60*60),"/&quot;
+  setcookie($key, $value, time()+(365*24*60*60),"/");
 }
 
 function getval($key, $def) {
@@ -11,7 +11,5 @@ function getval($key, $def) {
     return $_COOKIE[$key];
   }
 }
-
-
 
 ?>

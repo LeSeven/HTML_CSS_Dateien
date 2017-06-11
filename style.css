@@ -1,0 +1,66 @@
+
+nav {
+  margin-top: 25px;
+}
+
+.product-box {
+  padding: 16px !important;
+  margin: 64px;
+}
+
+/*nav ul {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li.topmenu {
+  float: left;
+}
+
+nav a:hover, .topmenu.on a {
+  color: gray;
+  background-color: skyblue;
+}
+
+.topmenu a {
+  font-family: Arial;
+  font-size: small;
+  float: left;
+  width: 215px;
+  text-align: center;
+  border-right: 1px solid #a4a4a3;
+}
+
+.topmenu ul {
+  display: none;
+}
+
+.topmenu a, .submenu a {
+  padding: 15px 5px;
+  border-collapse: collapse;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: ghostwhite;
+  margin: 0;
+}
+
+.submenu a {
+  font-size: 12px;
+  width: 175px;
+  position: relative;
+  clear: both;
+  border-right: 1px solid #a4a4a3;
+}
+
+.topmenu:hover ul {
+  transition: .5s;
+  display: block;
+  z-index: 500;
+}*/
+
+.titel {
+  font-size: 5em;
+}
