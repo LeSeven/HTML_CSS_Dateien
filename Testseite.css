@@ -1,0 +1,14 @@
+#Gtx1080{
+    position: relative;
+    border: 2px solid gray;
+    height: 155px;
+    width: 780px;
+    margin: 0 0 8px 8px;
+    padding: 10px 10px;
+}
+
+#Graka1{
+    height: 150px;
+    width: 150px;
+    margin-left: 5px;
+}
