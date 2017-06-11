@@ -1,8 +1,9 @@
 [
   {
     "name":"GeForce ...",
-    "preis":"500€",
     "description":"Bla\nBla",
+    "img":"/Gtx1080.png",
+    "price":"300€",
     "id":"karte5"
   }
 ]

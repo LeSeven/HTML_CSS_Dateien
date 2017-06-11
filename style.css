@@ -6,6 +6,33 @@ nav {
 .product-box {
   padding: 16px !important;
   margin: 64px;
+  display: flex;
+}
+
+.description {
+ color: #5F5F5F;
+}
+
+.product-box > * {
+  margin: 16px;
+}
+
+.right {
+  margin-left: 75%;
+  display: flex;
+}
+
+.right > * {
+  margin: 6px;
+}
+
+.img-div {
+  box-shadow: .5px .860px 1px 0 gray;
+}
+
+.img-div, .img-div img {
+  max-width: 128px;
+  max-height: 128px;
 }
 
 /*nav ul {

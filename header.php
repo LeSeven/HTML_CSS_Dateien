@@ -3,6 +3,7 @@ include "Cookie.php";
 include "Produkte.php";
 ?>
 
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -10,10 +11,23 @@ include "Produkte.php";
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="/bootstrap-hover-dropdown.min.js"></script>
+  <script>
+    function warenkorb(opt,id) {
+      $.ajax({
+        type:"POST",
+        url:"/warenkorb",
+        data:{
+          opt,id
+        },
+        success:() => window.location.reload()
+      })
+    }
+  </script>
 </head>
 <body>
 
@@ -21,12 +35,9 @@ include "Produkte.php";
 <nav class="navbar navbar-inverse">
    <div class="container-fluid">
      <div class="navbar-header">
-       <a class="navbar-brand" href="#">WebSiteName</a>
+       <a class="navbar-brand" href="/">PC KINGS</a>
      </div>
      <ul class="nav navbar-nav">
-
-       <li><a href="/">Startseite</a></li>
-
 
        <li class="dropdown">
          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10" data-close-others="false">
@@ -54,6 +65,22 @@ include "Produkte.php";
          <li><a href="/Maus">Maus</a></li>
          <li><a href="/Tastatur">Tastatur</a></li>
        </ul>
+
+         <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10" data-close-others="false">
+                Warenkorb <i class="fa fa-shopping-cart"></i>
+           </a>
+           <ul class="dropdown-menu">
+             <?php
+             foreach($warenkorb_produkte as $produkt) {
+               ?>
+               <li><a><?php echo "$produkt->name"; ?></a></li>
+
+               <?php
+             }
+             ?>
+           </ul>
+       </li>
    </li>
 
      </ul>
