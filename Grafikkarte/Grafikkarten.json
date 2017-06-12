@@ -1,0 +1,16 @@
+[
+  {
+    "name":"MSI GeForce GTX 1080 GAMING X 8G, 8GB GDDR5",
+    "description":"Bla\nBla",
+    "img":"/Gtx1080.png",
+    "price":"545€",
+    "id":"Grafikkarte0"
+  },
+  {
+    "name":"MSI GeForce GTX 970 Gaming 4G, 4GB GDDR5",
+    "description":"Bla\nBla",
+    "img":"/Gtx970.png",
+    "price":"215€",
+    "id":"Grafikkarte1"
+  }
+]

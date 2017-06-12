@@ -1,0 +1,16 @@
+[
+  {
+    "name":"Samsung 580 EVO SSD 500GB",
+    "description":"Bla\nBla",
+    "img":"/SamsungSSD.png",
+    "price":"157€",
+    "id":"Festplatte0"
+  },
+  {
+    "name":"Seagate 1TB 2,5 Zoll SATA II Festplatte",
+    "description":"Bla\nBla",
+    "img":"/Seagate1TB.png",
+    "price":"64€",
+    "id":"Festplatte1"
+  }
+]

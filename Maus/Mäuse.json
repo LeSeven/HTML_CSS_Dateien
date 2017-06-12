@@ -1,0 +1,16 @@
+[
+  {
+    "name":"Logitech MX Master kabellose Maus für Windows",
+    "description":"Bla\nBla",
+    "img":"/Logitech.png",
+    "price":"70€",
+    "id":"Mäuse0"
+  },
+  {
+    "name":"Mad Catz R.A.T. PRO X Gaming Mouse - Black ",
+    "description":"Bla\nBla",
+    "img":"/R.A.T.png",
+    "price":"189€",
+    "id":"Mäuse1"
+  }
+]

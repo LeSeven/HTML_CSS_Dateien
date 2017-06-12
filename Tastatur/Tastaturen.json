@@ -1,0 +1,16 @@
+[
+  {
+    "name":"Logitech G910 Orion Spectrum Mechanische RGB-Gaming-Tastatur",
+    "description":"Bla\nBla",
+    "img":"/LogitechTast.png",
+    "price":"129€",
+    "id":"Tastaturen0"
+  },
+  {
+    "name":"Razer BlackWidow Chroma Mechanische Gaming Tastatur",
+    "description":"Bla\nBla",
+    "img":"/RazerTast.png",
+    "price":"159€",
+    "id":"Tastaturen1"
+  }
+]

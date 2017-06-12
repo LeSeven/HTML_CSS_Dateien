@@ -1,0 +1,16 @@
+[
+  {
+    "name":"...",
+    "description":"Bla\nBla",
+    "img":"/Gtx1080.png",
+    "price":"..€",
+    "id":"Netzteile0"
+  },
+  {
+    "name":"...",
+    "description":"Bla\nBla",
+    "img":"/Gtx970.png",
+    "price":"..€",
+    "id":"Netzteile1"
+  }
+]

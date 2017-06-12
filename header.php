@@ -17,7 +17,7 @@ include "Produkte.php";
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="/bootstrap-hover-dropdown.min.js"></script>
   <script>
-    function warenkorb(opt,id) {
+    function warenkorb(opt,id) { //sendet löschen/hinzufügen befehl an den server (warekorb/index.php)
       $.ajax({
         type:"POST",
         url:"/warenkorb",
@@ -45,7 +45,7 @@ include "Produkte.php";
          </a>
          <ul class="dropdown-menu">
            <li><a href="/Arbeitsspeicher">Arbeitsspeicher</a></li>
-           <li><a href="/Festpatte">Festpatte</a></li>
+           <li><a href="/Festplatte">Festplatte</a></li>
            <li><a href="/Grafikkarte">Grafikkarte</a></li>
            <li class="divider"></li>
            <li><a href="/Mainboard">Mainboard</a></li>
@@ -67,17 +67,12 @@ include "Produkte.php";
        </ul>
 
          <li class="dropdown">
-           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10" data-close-others="false">
-                Warenkorb <i class="fa fa-shopping-cart"></i>
+           <a href="/Warenkorb" onclick="window.location.href='/Warenkorb'" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10" data-close-others="false">
+                Warenkorb (<?php echo sizeof($warenkorb_produkte); ?>) <i class="fa fa-shopping-cart"></i>
            </a>
            <ul class="dropdown-menu">
              <?php
-             foreach($warenkorb_produkte as $produkt) {
-               ?>
-               <li><a><?php echo "$produkt->name"; ?></a></li>
-
-               <?php
-             }
+             ProduktListeMini($warenkorb_produkte,$warenkorb);
              ?>
            </ul>
        </li>

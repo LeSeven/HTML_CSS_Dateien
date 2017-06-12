@@ -1,0 +1,16 @@
+[
+  {
+    "name":"NZXT H440 New 2015 Edition",
+    "description":"Bla\nBla",
+    "img":"/Nzxt.png",
+    "price":"110€",
+    "id":"Gehäuse0"
+  },
+  {
+    "name":"Sharkoon T28 Red-Edition",
+    "description":"Bla\nBla",
+    "img":"/Sharkoon.png",
+    "price":"80€",
+    "id":"Gehäuse1"
+  }
+]

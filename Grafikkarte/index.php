@@ -1,5 +1,5 @@
 <?php include "../header.php"; ?>
 <?php
-ProduktListe(JSON("karten.json"));
+ProduktListe(JSON("Grafikkarten.json"),$warenkorb);
 ?>
 <?php include "../footer.php"; ?>

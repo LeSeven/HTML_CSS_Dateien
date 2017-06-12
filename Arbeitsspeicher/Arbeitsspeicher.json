@@ -1,0 +1,16 @@
+[
+  {
+    "name":"Corsair Vengeance LED 16 GB DDR4 3200 Mhz",
+    "description":"Bla\nBla",
+    "img":"/Corsair.png",
+    "price":"154€",
+    "id":"Arbeitsspeicher0"
+  },
+  {
+    "name":"Ballistix Sport 8GB Kit DDR3 1600 Mhz",
+    "description":"Bla\nBla",
+    "img":"/Ballistix.png",
+    "price":"64€",
+    "id":"Arbeitsspeicher1"
+  }
+]
